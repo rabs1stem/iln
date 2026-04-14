@@ -1,0 +1,8 @@
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - docker-compose down || true
+    - dcoker-compose up -d --build
