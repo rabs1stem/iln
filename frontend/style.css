@@ -1,0 +1,33 @@
+body {
+  background: pink;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.form {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background: hotpink;
+  border: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
